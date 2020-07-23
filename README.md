@@ -20,3 +20,4 @@ Open the index.htm file in your browser of choice. The game should open ready to
 
 ## Playing the Game
 The player gets a minute to answer as many times-tables sums as they can (up to the 12 times table). Each correct answer scores 1 point.
+![Get the sums right](documentation/playgame.png)
