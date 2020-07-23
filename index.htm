@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>TimesTable Game</title>
+        <script src="game.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <p>Press Start, then answer as many sums as you can. Just type the number and hit enter after each answer.</p>
+            <button id="btnStart" class="startbutton" name="btnStart" onclick="startGame()">Start</button>
+            <p>
+                <span class="sum" id="sum"></span>
+                <span id="answer" hidden="true">
+                    <input type="text" class="answer" name="txtAnswer" id="txtAnswer" value="" autocomplete="off" maxlength="3" autofocus>
+                </span>
+            </p>
+            <p>
+                <span id="rightanswer"  hidden="true">
+                    <img src="smile.png" alt="smiley face" height="100" width="100" />THAT'S CORRECT!!!<img src="smile.png" alt="smiley face" height="100" width="100" />
+                </span>
+                <span id="wronganswer" hidden="true">
+                    <img src="frown.png" alt="smiley face" height="100" width="100" />THAT'S WRONG!!<img src="frown.png" alt="smiley face" height="100" width="100" />
+                </span>
+            </p>
+            <p>
+                <span class="result" id="result" hidden="true"></span>
+            </p>
+            <p>Score: <span id="score"></span></p>
+        </div>
+    </body>   
+</html>
