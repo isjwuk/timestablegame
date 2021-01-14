@@ -2,7 +2,7 @@ body {
     background-color: darkgrey;
     color: black;
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", "Marker Felt", sans-serif;
 }
 
 .main {
@@ -19,7 +19,7 @@ body {
 .startbutton {
     background-color: orange;
     font-size: 50;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", "Marker Felt", sans-serif;
 }
 
 .sum {
@@ -29,7 +29,7 @@ body {
 .answer {
     font-size: 50pt;
     height: 80px;
-    width: 120px;
+    width: 180px;
 }
 
 .result {
