@@ -16,8 +16,10 @@ The web browser needs to be able to use Javascript, so any modern browser will b
 
 ## Starting the Game
 Open the index.htm file in your browser of choice. The game should open ready to start playing.
+
 ![Do you want to play a game?](documentation/startgame.png)
 
 ## Playing the Game
 The player gets a minute to answer as many times-tables sums as they can (up to the 12 times table). Each correct answer scores 1 point.
+
 ![Get the sums right](documentation/playgame.png)
