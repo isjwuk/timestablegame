@@ -90,14 +90,7 @@
                 "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]"
             ],
             "properties": {
-                "serverFarmId": "[variables('hostingPlanName')]",
-                        "virtualApplications": [
-                        {
-                            "virtualPath": "/",
-                            "physicalPath": "site\\wwwroot\\site",
-                            "virtualDirectories": null
-                        }
-                        ]
+                "serverFarmId": "[variables('hostingPlanName')]"
             },
             "resources": [
                 {
@@ -112,6 +105,23 @@
                         "repoUrl": "[parameters('repoURL')]",
                         "branch": "[parameters('branch')]",
                         "isManualIntegration": true
+                    }
+                },
+                {
+                    "type": "config",
+                    "apiVersion": "2015-08-01",
+                    "name": "web",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
+                    ],
+                    "properties": {
+                        "virtualApplications": [
+                        {
+                            "virtualPath": "/",
+                            "physicalPath": "site\\wwwroot\\site",
+                            "virtualDirectories": null
+                        }
+                        ]
                     }
                 }
             ]
