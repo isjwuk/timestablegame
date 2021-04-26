@@ -9,7 +9,8 @@ Clone the files to your local machine (or copy them to your own webserver). The 
 
 Alternatively, you can try a hosted release here: https://timestablegame.azurewebsites.net
 
-Or you can deploy it to your own Azure subscription, by default this template will deploy to a Free tier WebApp. [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fisjwuk%2Ftimestablegame%2Fmaster%2Fazure%2Fazuredeploy.json)
+Or you can deploy it to your own Azure subscription, by default this template will deploy to a Free tier WebApp. [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fisjwuk%2Ftimestablegame%2Fmaster%2Fazure%2Fazuredeploy.json) [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fisjwuk%2Ftimestablegame%2Fmaster%2Fazure%2Fazuredeploy.json)
+
 
 ## System Requirements
 If you are installing on a webserver then pretty much any webserver will do.
